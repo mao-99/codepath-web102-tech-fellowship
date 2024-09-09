@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+img {
+  max-width: 368px;
+  max-height: 270px;
+  cursor: pointer;
+  height: 15em; /* added */
+  padding: 1.5em; /* added */
+  will-change: filter; /* added */
+  transition: transform 0.2s; /* added */
+}
+
+img:hover {
+  box-shadow: 0px 0px 10px 10px #646cff;
+}
+
+img:active {
+  transform: scale(0.8);
+}
+
+.card {
+  width: 220px;
+  height: auto;
+  border: 1px solid #646cff;
+  border-radius: 0.75rem;
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
